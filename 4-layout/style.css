@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0%;
+  height: calc(100% - 40px);
+}
+
+main {
+  height: 80%;
+  display: flex;
+  background-color: violet;
+  margin: 20px;
+}
+
+.menu {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellowgreen;
+  margin: 10px;
+  flex-basis: 30%;
+}
+
+.izquierda {
+  display: flex;
+  margin: 20px;
+  background-color: teal;
+  flex-basis: 70%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  background-color: yellow;
+  margin: 10px;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: yellowgreen;
+  margin: 10px;
+}
+
+footer {
+  height: 20%;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}

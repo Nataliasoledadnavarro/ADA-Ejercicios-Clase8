@@ -1,0 +1,90 @@
+body,
+html {
+  height: 100%;
+  margin-top: 50px;
+  padding: 0%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+}
+
+header {
+  width: auto;
+  height: 100px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.usuario {
+  width: 100px;
+  height: 100px;
+  flex-basis: 25%;
+}
+
+.nombre {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+}
+.icono {
+  width: 50px;
+  height: 50px;
+  flex-basis: 25%;
+}
+
+.opciones {
+  height: 100%;
+  width: auto;
+  border: 1px black;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: solid 1px black;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-basis: 20%;
+}
+
+footer {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: solid 1px black;
+  margin: 5px;
+}
+
+footer > p {
+  font-size: 20px;
+  color: white;
+  background-color: blueviolet;
+  padding: 5px;
+  border: solid 1px black;
+}

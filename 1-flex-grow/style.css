@@ -1,0 +1,94 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.uno,
+.tres {
+  background-color: chocolate;
+  height: 100px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.dos {
+  background-color: brown;
+  height: 100px;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.cuatro,
+.siete {
+  background-color: chocolate;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.cinco,
+.seis {
+  height: 100px;
+  background-color: brown;
+  flex-grow: 2;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.ocho,
+.nueve,
+.diez {
+  background-color: brown;
+  height: 100px;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 10px;
+}
+.once {
+  height: 100px;
+  background-color: brown;
+  flex-grow: 2;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.doce,
+.trece {
+  height: 100px;
+  background-color: chocolate;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.catorce,
+.quince {
+  height: 100px;
+  background-color: chocolate;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.dieciseis {
+  height: 100px;
+  background-color: brown;
+  flex-grow: 3;
+  margin: 10px;
+  border-radius: 10px;
+}
